@@ -1,0 +1,61 @@
+body{
+    background-image: url('../img/trr.jpg');
+    background-size: cover;
+    background-color: white;
+}
+.encabezado{
+    margin-top: 50px;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+.nav .menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav .menu li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.redesSociales a{
+    color: white;
+    font-size: large;
+}
+.redesSociales a:hover{
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+    height: 9%;
+    border-radius: 30%;
+    border: 0.4px solid white;
+}
+.mensaje{
+    margin-top: 60px;
+}
+.mensaje :hover{
+    font-size: 45px;
+}
+.titulo{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.footer{
+    bottom: 0%;
+    position: fixed;
+    font-family: monospace;
+}
+.derechos{
+    color: white;
+}
